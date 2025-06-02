@@ -1,0 +1,15 @@
+com.bookreviewapp
+│
+├── data
+│   ├── local        (Room entities, DAOs, Database)
+│   ├── remote       (Retrofit service, models)
+│   └── repository   (BookRepository)
+│
+├── domain
+│   ├── model        (Book domain model)
+│   └── usecase      (GetBooksUseCase, SaveBookUseCase)
+│
+└── ui
+    ├── list         (BookListActivity, BookListViewModel)
+    ├── detail       (BookDetailActivity, BookDetailViewModel)
+    └── adapter      (BookListAdapter)
